@@ -12,7 +12,7 @@ int main() {
     while (Contribution < thedesiredamount)
     {
         Contribution += Contribution * Theinterestrate / 100;
-        waityears;
+        waityears++;
     }
     cout << "We`ll have to wait " << waityears << "years" << endl;
 
